@@ -1,0 +1,193 @@
+body {
+background-color:#0B1320 ;
+color: #FFFFFF;
+padding: 24px;
+}
+
+.title{
+   font-size: 15px;
+    color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ .list-film{
+ margin-bottom: 70px ;
+ }    
+
+ input{ 
+height: 100px;
+width: 200px;
+background-color: whitesmoke;
+border-color: aqua;
+border-radius: 20px;
+font-size: 15px;
+padding: 8px;
+border-width: 4px;
+}  
+.button-opinion{
+font-size: 15px;
+color:#0B1320;
+font-family: 'elephant';
+padding: 15px 25px;
+background-color: aqua;
+border-radius: 30px;
+border-width: 4px;
+border-color: #FFFFFF;
+
+}
+
+.header{
+    height: 90px;
+    border-radius: 90px;
+    margin: 0;
+    padding: 0;
+    font-family: 'elephant';
+    background-color:#0B1320 ;
+    box-shadow: 1px 2px 2px aqua ;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+   justify-content:space-around ;
+   padding: -10 10%;
+    
+
+}
+
+.navigation_header {
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+    transition: 1s;
+  
+}
+.navigation_header a{
+    text-decoration: none;
+    font-family: 'elephant';
+    color: #0B1320;
+
+}
+
+.imglogo{
+width: 250px;
+
+
+}
+
+.click{
+background-color:#AFC1D0;
+padding: 1%;
+border-radius: 9%;
+text-decoration: none;
+color: #0B1320;
+
+}
+.filtro{
+    height: 100px;
+    font-family: 'elephant';
+    font-size: 20px;
+    color:#AFC1D0;
+    text-decoration: none;
+
+}
+
+.icon1{ 
+    display: block;
+ 
+    background-color: transparent;
+    border: none;
+    color:aqua;
+    cursor: pointer;
+ }
+.icon{ 
+   display: none;
+
+   background-color: transparent;
+   border: none;
+   color:aqua;
+   cursor: pointer;
+}
+
+@media screen and (max-width:2000px){
+    
+    .icon{
+        display: block;
+    }
+    
+    
+    .SideBar{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+    transition: 1s;
+    position: absolute;
+    flex-direction: column;
+    top:0;
+    background-color:#1C3F60;
+    height: 100%;
+    width:20vw;
+    padding: 20px;
+    margin-left: -200vw;
+    animation-duration: 1s;
+    z-index: 2;
+    
+
+
+    }
+}
+@keyframes showSide {
+    from {margin-left: -200vw}
+    to{margin-left: -87vw;}
+}
+
+
+.configFilm{
+
+    width: 200px;
+    border-radius: 30px;
+   
+
+
+}
+
+.menu{
+    
+    font-family: 'elephant';
+    font-size: 20px;
+    color:#AFC1D0;
+    text-decoration: none;
+    
+}
+
+.dialog{
+    height: 70%;
+    border-radius: 9%;
+    background-color: #1C3F60;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    justify-content:space-around ;
+    padding: -10 10%;
+
+}
+.postOpinion{
+    width: 250px;
+    border-radius: 30px;
+    gap: 30px;
+    justify-content:space-around ;
+    padding: -10 10%;
+
+}
+
+
+
+
+
+
+
+

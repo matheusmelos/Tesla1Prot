@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head> 
+<meta charset=""UTF-8/>
+<meta name="viewport" content="width=device-width, inicial-scale=1.0"/>
+<tile class="title" ></tile>
+<link rel="stylesheet" href="main.css"/>
+<script src="main.js"></script>
+</head>
+
+<body> 
+  
+  
+  <div class ="header" id="header">
+    <button class="icon1" onclick = "OpenMenu()">
+  
+      <a href="#"  class="menu">Menu</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-play" viewBox="0 0 16 16">
+      <path d="M6 10.117V5.883a.5.5 0 0 1 .757-.429l3.528 2.117a.5.5 0 0 1 0 .858l-3.528 2.117a.5.5 0 0 1-.757-.43z"/>
+      <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+    </svg> 
+  </button> 
+
+
+    
+    <div class="logo_header">
+         <img src="logo.png" class ="imglogo" alt="Opine Hollywood">
+    </div>
+    <div class = "navigation_header">
+
+
+      <a href="#"  class="click">Home</a>
+      <h2 class = "filtro"> Filtrar: </h2>
+      <a href="#" class="click">Ação</a>
+      <a href="#"  class="click">Terror</a>
+      <a href="#"  class="click">Comédia</a>
+      <a href="#"  class="click">Infantil</a>
+      
+    </div>
+
+   
+  <div class = "SideBar" id="SideBar">
+    <button class="icon" onclick="CloseMenu()"> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+        <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+        <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z"/>
+      </svg>
+    </button>
+
+      <a href="#"  class="click">Home</a>
+      <a href="admin.html"  class="click">ADM</a>
+      <h2 class = "filtro"> Filtrar: </h2>
+      <a href="#" class="click">Ação</a>
+      <a href="#"  class="click">Terror</a>
+      <a href="#"  class="click">Comédia</a>
+      <a href="#"  class="click">Infantil</a>
+      
+    </div>
+  
+
+
+
+
+
+  </div>
+
+ 
+ <div tabindex="0" onclick="CloseMenu()"  id="content"> 
+   <h1>Melhores Avaliados</h1>
+
+   <img src="filme teste.jpg" class="configFilm" alt="filme">
+   
+   <ul id ="list">  </ul>
+ </div>
+ 
+ 
+
+ 
+ <dialog class="dialog" id = "dialog">
+  
+  <img src="filme teste.jpg" class="postOpinion" alt="filme"/>
+
+ <div class="navigation_header">
+  
+  <input 
+ type="text"
+  id="opinion" 
+  name="opinion"
+  placeholder="Opine aqui" />
+
+  <button class = "button-opinion" onclick ="addOpinion()">Opinar</button>
+  
+</div>
+
+ </dialog>
+
+ <div>
+  <button class = "button-opinion" onclick = "popup()" id="botao">Opinar</button>
+  <button class = "button-opinion" onclick ="Informations()">Mais Informações</button>
+ </div> 
+
+
+
+
+
+
+
+
+ </body>
+
+</html>
